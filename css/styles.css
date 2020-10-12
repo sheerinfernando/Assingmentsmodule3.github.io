@@ -1,0 +1,29 @@
+header {
+    background: #99AAAB;
+    border-bottom: 2px solid black;
+}
+
+main h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+#chicken h2,
+#beef h2,
+#mutton h2 {
+    text-align: center;
+}
+
+#chicken,
+#beef,
+#mutton {
+    box-sizing: border-box;
+    background: #99AAAB;
+}
+
+@media (min-width:768px) {
+    .navi {
+        display: none;
+    }
+}
